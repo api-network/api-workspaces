@@ -7,15 +7,9 @@ description: Clever Cloud is a Europe-based PaaS company. We help developers dep
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/clever-cloudlogo_on_white.png
 tags:
 - automation
-- cassandra
-- duplicate
+- compute
 - event-driven
-- kafka
-- machine learning
-- mysql
 - postgresql
-- rabbitmq
-- redis
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/clevercloud/master/apis.json
@@ -32,6 +26,8 @@ apis:
     url: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/openapis/clevercloud.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: http://www.payara.fish/about
 - type: Blog
