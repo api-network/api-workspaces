@@ -6,7 +6,9 @@ description: Autodesk, Inc. is an American multinational software corporation th
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/1384-autodesk-bim360-glue.jpg
 tags:
 - 3d
+- architecture
 - cad
+- construction
 - models
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -61,6 +63,8 @@ apis:
   properties: []
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://bim360.autodesk.com/api/
 - type: Blog
