@@ -10,7 +10,6 @@ description: AIKON (pronounced ???icon???) is transforming the $2.2 Trillion API
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/28176-aikon-com.jpg
 tags:
 - blockchain
-- economy
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/aikon/master/apis.json
