@@ -5,7 +5,7 @@ description: Betfair is an online gambling company which operates the world's la
   and online bingo.
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pull_image_09-22-2019-06-42-pm.jpg
 tags:
-- betting exchange
+- betting
 - bingo
 - casino
 - gambling
@@ -26,6 +26,8 @@ apis:
     url: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/openapis/betfair-exchange-streaming.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://betfair.com
 - type: About
