@@ -4,7 +4,6 @@ description: API tooling for better developer experience
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
   Shot 2018-05-21 at 3.08.45 PM.png
 tags:
-- api tools
 - discovery
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -27,6 +26,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/apis-guru/master/apis-guru-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Blog
   url: https://blog.apis.guru/
 - type: Documentation
