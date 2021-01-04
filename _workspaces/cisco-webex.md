@@ -6,10 +6,8 @@ description: Cisco Webex is the leading enterprise solution for video conferenci
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/730-cisco-webex.jpg
 tags:
 - conference call
-- office
 - online meeting
 - screen share
-- telecommunications
 - video conference
 - webinar
 created: "2021-01-03"
@@ -45,6 +43,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/master/webex-teams-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Blog
   url: http://blog.webex.com
 - type: Blog
