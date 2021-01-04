@@ -9,8 +9,9 @@ description: <p>The National Archives and Records Administration (NARA) is an in
   also transmits votes of the Electoral College to Congress.</p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/280px-US-NARA-Seal.svg.png
 tags:
-- data json
+- archives
 - federal government
+- records
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/master/apis.json
@@ -56,6 +57,8 @@ apis:
     url: https://explore.data.gov/developers/docs/executive-orders-from-1994-to-2012
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Developers
   url: http://www.archives.gov/developers/
 - type: News
