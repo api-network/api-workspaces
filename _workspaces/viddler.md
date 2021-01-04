@@ -27,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/viddler/master/viddler--api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Base
   url: http://api.viddler.com/api/
 - type: Blog
@@ -66,7 +68,7 @@ x-common:
 - type: Website
   url: https://www.viddler.com
 - type: x-screenshot
-  url: http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/api/screenshots/1895_viddler_.png
+  url: http://kinlane-productions2.s3.amazonaws.com/viddler.jpg
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/viddler/overview
 ...
