@@ -63,7 +63,7 @@ x-common:
 - type: Website
   url: http://lufthansa.com
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/lufthansa.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/lufthansa-airlines.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/lufthansa/overview
 ...
