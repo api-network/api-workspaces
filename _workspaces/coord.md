@@ -8,7 +8,6 @@ tags:
 - bikes
 - parking
 - routes
-- streams
 - tolls
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -108,6 +107,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/coord/master/multimodal-routing-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Blog
   url: https://medium.com/coord
 - type: Blog RSS
