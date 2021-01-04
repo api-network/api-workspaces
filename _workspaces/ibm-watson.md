@@ -7,7 +7,6 @@ description: <p>Meet IBM Watson, a cognitive system that enables a new partnersh
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
 tags:
 - artificial intelligence
-- ibm
 - machine learning
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -42,6 +41,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/ibm-watson/master/ibm-watson-iot-platform-http-rest-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Application Gallery
   url: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html
 - type: Blog
