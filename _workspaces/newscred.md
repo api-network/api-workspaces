@@ -30,6 +30,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/newscred/master/news-cred-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Base
   url: http://api.newscred.com
 - type: Blog
