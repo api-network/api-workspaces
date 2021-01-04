@@ -5,7 +5,7 @@ description: Free recipe app for home cooks. Create a meal plan, grocery list an
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg
 tags:
 - cooking
-- food and beverages
+- food
 - nutrition
 - recipes
 created: "2021-01-03"
@@ -28,6 +28,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/bigoven/master/big-oven-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.bigoven.com
 - type: Base
