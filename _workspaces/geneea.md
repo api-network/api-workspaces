@@ -10,7 +10,6 @@ tags:
 - languages
 - machine learning
 - sentiment analysis
-- tags
 - topic identification
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -18,6 +17,8 @@ url: https://raw.githubusercontent.com/api-evangelist/geneea/master/apis.json
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://www.geneea.com
 - type: Blog
