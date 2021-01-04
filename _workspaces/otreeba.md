@@ -7,11 +7,8 @@ description: <p>We collect, maintain, and provide structured data about cannabis
   retailers, and studies through a REST API.</p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pull_image_08-27-2019-05-08-pm.png
 tags:
-- accounts
-- brands
 - cannabis
 - medical studies
-- retailers
 - strains
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -33,6 +30,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/otreeba/master/otreeba-open-cannabis-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://otreeba.com
 - type: Authentication
