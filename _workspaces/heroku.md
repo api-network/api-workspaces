@@ -5,14 +5,8 @@ description: Heroku is a platform as a service (PaaS) that enables developers to
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
 tags:
 - code
-- command line interface
 - compute
 - databases
-- developers
-- issues
-- issues example
-- paas
-- platform as a service providers
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/heroku/master/apis.json
@@ -33,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/heroku/master/heroku-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://devcenter.heroku.com
 - type: About
