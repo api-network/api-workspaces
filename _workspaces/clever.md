@@ -8,8 +8,8 @@ tags:
 - education
 - learning
 - marketplaces
-created: "2021-01-03"
-modified: "2021-01-03"
+created: "2021-01-04"
+modified: "2021-01-04"
 url: https://raw.githubusercontent.com/api-evangelist/clever/master/apis.json
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/clever/master/data-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Base
   url: https://api.clever.com/
 - type: Blog
@@ -81,7 +83,8 @@ x-common:
 - type: Website
   url: https://getclever.com
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/clever.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/Screen
+    Shot 2021-01-04 at 11.30.28 AM.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/clever/overview
 ...
