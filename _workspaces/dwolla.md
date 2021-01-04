@@ -27,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/dwolla/master/dwolla-api--sandbox-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://www.dwolla.com
 - type: About
