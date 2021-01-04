@@ -3,6 +3,7 @@ name: Rite Kit
 description: ""
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/ritekit-logo.png
 tags:
+- hashtags
 - links
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -24,6 +25,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/rite-kit/master/ritekit-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://ritetag.com
 - type: Blog
