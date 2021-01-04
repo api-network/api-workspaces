@@ -7,7 +7,8 @@
              <!--Top Left-->
              <div class="top-left col-lg-4 col-md-12 col-sm-12">
                 <ul class="clearfix">
-                   <li>{{ site.tagline }}</li>
+                    {% assign workspace_count = site.workspaces | size %}
+                   <li>A listing of {{ workspace_count }} public API workspaces.</li>
                 </ul>
              </div>
              <!--Top Right-->
@@ -52,27 +53,6 @@
                    </ul>
                 </div>
              </nav>
-             <!-- Main Menu End-->
-             <div class="outer-box">
-                <!--Search Box-->
-                <div class="search-box-outer">
-                   <div class="dropdown">
-                      <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
-                      <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu1">
-                         <li class="panel-outer">
-                            <div class="form-container">
-                               <form method="post" action="blog.html">
-                                  <div class="form-group">
-                                     <input type="search" name="field-name" value="" placeholder="Search Here" required>
-                                     <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
-                                  </div>
-                               </form>
-                            </div>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-             </div>
 
           </div>
        </div>
