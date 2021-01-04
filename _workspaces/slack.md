@@ -8,11 +8,10 @@ description: <p>Slack is a team communication application providing services suc
   Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.</p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
 tags:
-- change log example
 - chats
 - communications
-- imports
 - messages
+- messaging
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/slack/master/apis.json
@@ -33,6 +32,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/slack/master/slack-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://slack.com/about
 - type: Application Gallery
