@@ -5,6 +5,7 @@ description: Book your flights to Germany, Italy, UK or France online at attract
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
 tags:
 - airlines
+- travel
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/lufthansa/master/apis.json
@@ -25,6 +26,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/lufthansa/master/lh-partner-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://ti.lh.com/2XDW
 - type: Blog
