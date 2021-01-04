@@ -2,7 +2,7 @@
 name: AngelList
 description: AngelList is where the world meets startups. Find a great startup job,
   invest in a startup, or raise money
-image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
+image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/339-angellist.png
 tags:
 - business
 - directories
@@ -18,7 +18,7 @@ specificationVersion: "0.14"
 apis:
 - name: AngelList
   description: ~
-  image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
+  image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/339-angellist.png
   humanURL: http://angel.co
   baseURL: http://angel.co
   tags: []
@@ -82,7 +82,7 @@ x-common:
 - type: Website
   url: http://angel.co
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/angellist.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/angelist-screenshot.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/angellist/overview
 ...
