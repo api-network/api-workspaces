@@ -5,8 +5,9 @@ description: Gluu allows Organizations to safely manage identity security. Gluu 
   saml. Free Trial Available.
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/10213-gluu.jpg
 tags:
-- api management other
+- access management
 - identities
+- security
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/gluu/master/apis.json
@@ -27,6 +28,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/gluu/master/gluu-scim-2-0-apis-documentation-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://gluu.org
 - type: Blog
