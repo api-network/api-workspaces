@@ -5,10 +5,8 @@ description: Welcome to 7digital!    Choose from over 30 million high quality tr
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
 tags:
 - downloads
-- general data
 - mp3
 - music
-- no api definition
 - stores
 - streaming
 created: "2021-01-03"
@@ -57,6 +55,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/7digital/master/7digital-purchasing-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.7digital.com/
 - type: .NET SDK
