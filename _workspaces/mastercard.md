@@ -84,7 +84,7 @@ x-common:
 - type: Webhooks
   url: https://www.simplify.com/commerce/docs/misc/webhooks
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/mastercard.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/mastercard-screenshot.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/mastercard/overview
 ...
