@@ -6,7 +6,6 @@ image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/
 tags:
 - assets
 - banking
-- postman
 - uk banks
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -103,6 +102,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/abn-amro/master/tikkie-fast-checkout-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.abnamro.com
 - type: About
