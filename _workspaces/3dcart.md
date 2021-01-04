@@ -11,7 +11,6 @@ tags:
 - hosting
 - marketing
 - point-of-sale
-- relative data
 - shopping cart
 - shopping carts
 - webhooks
@@ -35,6 +34,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/3dcart/master/3dcartwebapi-1-0-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Github
   url: https://github.com/3dcart
 - type: About
