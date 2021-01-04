@@ -9,7 +9,6 @@ image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/21488-www
 tags:
 - commerce
 - hosting
-- marketing
 - point-of-sale
 - shopping cart
 - shopping carts
@@ -88,4 +87,6 @@ x-common:
   url: https://www.youtube.com/user/3dcart
 - type: x-screenshot
   url: http://kinlane-productions2.s3.amazonaws.com/3dcart.jpg
+- type: x-workspace
+  url: https://www.postman.com/api-evangelist/workspace/3dcart/overview
 ...
