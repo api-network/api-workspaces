@@ -9,7 +9,6 @@ tags:
 - automation
 - compute
 - event-driven
-- postgresql
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/clevercloud/master/apis.json
