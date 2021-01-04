@@ -4,10 +4,9 @@ description: The new way to solve Identity
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
 tags:
 - authentication
+- authorization
 - identities
 - oauth
-- service level agreement
-- users
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/auth0/master/apis.json
@@ -28,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/auth0/master/auth0-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://auth0.com
 - type: About
