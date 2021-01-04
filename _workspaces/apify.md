@@ -27,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/apify/master/apify-api-version-2-reference-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Developer
   url: https://docs.apify.com/api/v2
 - type: Documentation
