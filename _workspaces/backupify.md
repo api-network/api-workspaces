@@ -3,7 +3,6 @@ name: Backupify
 description: ""
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/backupify-review-300x300.png
 tags:
-- api not found
 - backups
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -25,6 +24,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/backupify/master/backupify-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.backupify.com
 - type: Blog
