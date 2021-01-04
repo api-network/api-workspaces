@@ -1,0 +1,52 @@
+<!--Agencies Post Widget-->
+<div class="sidebar-widget posts-widget">
+  <!--Product widget Tabs-->
+  <div class="product-widget-tabs">
+     <!--Product Tabs-->
+     <div class="prod-tabs tabs-box">
+        <!--Tab Btns-->
+        <ul class="tab-btns tab-buttons clearfix">
+           <li data-tab="#prod-popular" class="tab-btn active-btn">Popular</li>
+        </ul>
+        <!--Tabs Container-->
+        <div class="tabs-content">
+
+           <!--Popular-->
+           <div class="tab active-tab" id="prod-popular">
+              <div class="content">
+                {% assign workspaces = site.workspaces %}
+                {% assign workspaces = workspaces | sort: 'name' %}
+                {% for entry in workspaces limit: 4 %}
+                 <article class="widget-post">
+                    <figure class="post-thumb">
+                       <a href="{{ entry.url }}"><img src="{{ entry.image }}" alt=""  style="border: 4px solid #CCC; width: 100%; height: 70px;"></a>
+                    </figure>
+                    <div class="text" style="padding-top: 15px;"><a href="{{ entry.url }}">{{ entry.title }}</a></div>
+                 </article>
+                 {% endfor %}
+              </div>
+           </div>
+           <!--Popular-->
+
+           <!--Popular-->
+           <div class="tab" id="prod-recent">
+              <div class="content">
+                {% assign workspaces = site.workspaces %}
+                {% for entry in workspaces limit: 4 | sort: 'date' %}
+                 <article class="widget-post">
+                    <figure class="post-thumb">
+                       <a href="{{ entry.url }}"><img src="{{ entry.image }}" alt=""  style="border: 4px solid #CCC; width: 100%; height: 70px;"></a>
+                    </figure>
+                    <div class="text" style="padding-top: 15px;"><a href="{{ entry.url }}">{{ entry.title }}</a></div>
+                 </article>
+                 {% endfor %}
+              </div>
+           </div>
+           <!--Popular-->
+
+        </div>
+     </div>
+  </div>
+  <!--End Product Info Tabs-->
+</div>
+<!--End Post Widget-->

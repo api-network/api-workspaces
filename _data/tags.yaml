@@ -1,0 +1,178 @@
+---
+- name: Aeronautics
+  description: This is the description for Aeronautics.
+  featured: true
+- name: Analysis
+  description: This is the description for Analysis.
+  featured: true
+- name: Analytics
+  description: This is the description for Analytics.
+  featured: true
+- name: Archaeology
+  description: This is the description for Archaeology.
+  featured: true
+- name: Artificial Intellgence
+  description: This is the description for Artificial Intellgence.
+  featured: true
+- name: Automation
+  description: This is the description for Automation.
+  featured: true
+- name: Bias
+  description: This is the description for Bias.
+  featured: true
+- name: Catalog
+  description: This is the description for Catalog.
+  featured: true
+- name: Census
+  description: This is the description for Census.
+  featured: true
+- name: Climate
+  description: This is the description for Climate.
+  featured: true
+- name: Collaboration
+  description: This is the description for Collaboration.
+  featured: true
+- name: Commerce
+  description: This is the description for Commerce.
+  featured: true
+- name: Data
+  description: This is the description for Data.
+  featured: true
+- name: Data Science
+  description: This is the description for Data Science.
+  featured: true
+- name: Database
+  description: This is the description for Database.
+  featured: true
+- name: Datasets
+  description: This is the description for Datasets.
+  featured: true
+- name: Defense
+  description: This is the description for Defense.
+  featured: true
+- name: Economic
+  description: This is the description for Economic.
+  featured: true
+- name: Economic Growth
+  description: This is the description for Economic Growth.
+  featured: true
+- name: Educaiton
+  description: This is the description for Educaiton.
+  featured: true
+- name: Environment
+  description: This is the description for Environment.
+  featured: true
+- name: Facial Recognition
+  description: This is the description for Facial Recognition.
+  featured: true
+- name: Federal Government
+  description: This is the description for Federal Government.
+  featured: true
+- name: Financial
+  description: This is the description for Financial.
+  featured: true
+- name: Forecasting
+  description: This is the description for Forecasting.
+  featured: true
+- name: Global
+  description: This is the description for Global.
+  featured: true
+- name: Health
+  description: This is the description for Health.
+  featured: true
+- name: In-Memory
+  description: This is the description for In-Memory.
+  featured: true
+- name: Intelligence
+  description: This is the description for Intelligence.
+  featured: true
+- name: Key-Value
+  description: This is the description for Key-Value.
+  featured: true
+- name: Labor
+  description: This is the description for Labor.
+  featured: true
+- name: Management
+  description: This is the description for Management.
+  featured: true
+- name: Marketplace
+  description: This is the description for Marketplace.
+  featured: true
+- name: Modeling
+  description: This is the description for Modeling.
+  featured: true
+- name: Oceans
+  description: This is the description for Oceans.
+  featured: true
+- name: Open Source
+  description: This is the description for Open Source.
+  featured: true
+- name: Patents
+  description: This is the description for Patents.
+  featured: true
+- name: Policies
+  description: This is the description for Policies.
+  featured: true
+- name: Poverty
+  description: This is the description for Poverty.
+  featured: true
+- name: Processing
+  description: This is the description for Processing.
+  featured: true
+- name: Public
+  description: This is the description for Public.
+  featured: true
+- name: Query
+  description: This is the description for Query.
+  featured: true
+- name: Request for Proposal
+  description: This is the description for Request for Proposal.
+  featured: true
+- name: Research
+  description: This is the description for Research.
+  featured: true
+- name: Science
+  description: This is the description for Science.
+  featured: true
+- name: Slave Trade
+  description: This is the description for Slave Trade.
+  featured: true
+- name: Social Change
+  description: This is the description for Social Change.
+  featured: true
+- name: Space
+  description: This is the description for Space.
+  featured: true
+- name: Statistical
+  description: This is the description for Statistical.
+  featured: true
+- name: Statistics
+  description: This is the description for Statistics.
+  featured: true
+- name: Surveillance
+  description: This is the description for Surveillance.
+  featured: true
+- name: Temperature
+  description: This is the description for Temperature.
+  featured: true
+- name: Time Series
+  description: This is the description for Time Series.
+  featured: true
+- name: Trade
+  description: This is the description for Trade.
+  featured: true
+- name: US Government
+  description: This is the description for US Government.
+  featured: true
+- name: Universities
+  description: This is the description for Universities.
+  featured: true
+- name: Visualization
+  description: This is the description for Visualization.
+  featured: true
+- name: Visualizations
+  description: This is the description for Visualizations.
+  featured: true
+- name: Weather
+  description: This is the description for Weather.
+  featured: true

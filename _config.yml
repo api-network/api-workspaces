@@ -1,0 +1,31 @@
+title: API Workspaces
+description: Looking through many different types of API workspaces.
+tagline: A Diverse List of API Workspaces
+image: images/network-logo-black.png
+url: https://dnn.laneworks.net
+twitter: apievangelist
+
+email: info@apievangelist.com
+
+github_user: api-network
+github_repo: api-workspaces
+github_branch: main
+
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     kramdown
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+
+collections:
+  workspaces:
+    output: true
+    permalink: /workspaces/:path/
+
+defaults:
+  - scope:
+      type: workspaces
+    values:
+      layout: workspaces

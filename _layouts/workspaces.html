@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+ <!--Sidebar Page Container-->
+ <div class="sidebar-page-container" style="padding-top: 25px;">
+    <div class="auto-container">
+       <div class="row clearfix">
+
+          <!--Content Side-->
+          <div class="content-side col-lg-8 col-md-12 col-sm-12">
+             <div class="content">
+                <div class="blog-single">
+                   <div class="inner-box">
+                      <div class="upper-box">
+                         <ul class="breadcrumb-bar">
+                            <li><a href="#">Home</a></li>
+                            <li>Workspaces</li>
+                            <li>{{ page.name }}</li>
+                         </ul>
+                         <ul class="tag-title">
+                            {% for tag in page.tags %}
+                              <li>{{ tag }}</li>
+                            {% endfor %}
+                         </ul>
+                         <h2>{{ page.name }}</h2>
+                      </div>
+                      <div class="text">
+                        {{ page.description }}
+                      </div>
+
+
+                      <ul class="new-article clearfix">
+                         <li><a href="#"><span class="fa fa-angle-left"></span> &ensp; &ensp; &ensp; &ensp; Previous Sources</a></li>
+                         <li><a href="#">Next Source &ensp; &ensp; &ensp; &ensp; <span class="fa fa-angle-right"></span></a></li>
+                      </ul>
+
+                   </div>
+
+                </div>
+             </div>
+          </div>
+
+          <!--Sidebar Side-->
+          <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
+             <aside class="sidebar default-sidebar right-sidebar">
+
+                {% include social/social-widget.html %}
+
+                {% include advertising/advertising-widget.html %}
+
+                {% include workspaces/workspaces-tag-widget.html %}
+
+             </aside>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!--End Sidebar Page Container-->

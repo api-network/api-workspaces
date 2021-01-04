@@ -1,0 +1,4 @@
+---
+- name: Tag
+  description: This is the description for Tag.
+  featured: true
