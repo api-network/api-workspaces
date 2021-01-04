@@ -128,6 +128,10 @@
         {
             "type": "Youtube",
             "url": "https:\/\/www.youtube.com\/embed\/ouL5K_8ag4o?rel=0"
+        },
+        {
+            "type": "x-screenshot",
+            "url": "http:\/\/kinlane-productions2.s3.amazonaws.com\/2checkout.jpg"
         }
     ]
 }
