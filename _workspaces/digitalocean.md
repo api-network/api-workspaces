@@ -11,7 +11,8 @@ description: <p>DigitalOcean is a simple and fast cloud hosting service built fo
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/DO_Logo_Horizontal_Black-3500c326.png
 tags:
 - compute
-- infrastructure as a service providers
+- hosting
+- servers
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/digitalocean/master/apis.json
@@ -32,6 +33,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/digitalocean/master/digitalocean-apiv2-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://do.co/welcome
 - type: About
