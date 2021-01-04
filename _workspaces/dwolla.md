@@ -5,6 +5,7 @@ description: Dwolla???s ACH APIs make it easy to integrate bank transfers. Facil
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/185-dwolla.jpg
 tags:
 - api lifeycle
+- bank accounts
 - financial
 - payments
 created: "2021-01-03"
