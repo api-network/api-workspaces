@@ -12,6 +12,8 @@ url: https://raw.githubusercontent.com/api-evangelist/automata/master/apis.json
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://byautomata.io/
 - type: x-screenshot
