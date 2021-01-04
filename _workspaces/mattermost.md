@@ -5,6 +5,8 @@ description: Open source, private cloud Slack-alternative, Workplace messaging f
   configurable, and scalable from teams to the enterprise.
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png
 tags:
+- chat
+- messaging
 - networks
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -12,6 +14,8 @@ url: https://raw.githubusercontent.com/api-evangelist/mattermost/master/apis.jso
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://mattermost.com
 - type: About
@@ -99,7 +103,8 @@ x-common:
 - type: Website
   url: http://api.mattermost.com
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/mattermost.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/Screen
+    Shot 2021-01-03 at 8.23.08 PM.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/mattermost/overview
 ...
