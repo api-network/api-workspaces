@@ -14,6 +14,8 @@ url: https://raw.githubusercontent.com/api-evangelist/archive-org/master/apis.js
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Blog
   url: http://blog.archive.org/
 - type: Blog RSS
@@ -23,7 +25,7 @@ x-common:
 - type: Website
   url: http://archive.org
 - type: x-screenshot
-  url: ~
+  url: http://kinlane-productions2.s3.amazonaws.com/archive-org.jpg
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/archive-org/overview
 ...
