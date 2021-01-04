@@ -5,7 +5,6 @@ description: Mastercard is a leading global payments & technology company that c
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
 tags:
 - blockchain
-- blockchains
 - coupons
 - financial
 - merchants
@@ -58,6 +57,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/mastercard/master/mastercard-blockchain-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.mastercard.us/support/
 - type: Base
