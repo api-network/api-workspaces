@@ -6,6 +6,7 @@ description: <p>Register for a Groupon API key (client_id) to develop your own G
 image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png
 tags:
 - coupons
+- deals
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/groupon/master/apis.json
@@ -26,6 +27,8 @@ include: []
 x-common:
 - type: API.json - Authoritative
   url: http://apis.io/apisdef/legacy/groupon.json
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://gr.pn/helpsavelocal
 - type: Affiliates
