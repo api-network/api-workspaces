@@ -19,12 +19,14 @@ url: https://raw.githubusercontent.com/api-evangelist/auckland-museum/master/api
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Twitter
   url: https://twitter.com/aucklandmuseum/
 - type: Website
   url: http://aucklandmuseum.com
 - type: x-screenshot
-  url: ~
+  url: http://kinlane-productions2.s3.amazonaws.com/auckland-museum.jpg
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/auckland-museum/overview
 ...
