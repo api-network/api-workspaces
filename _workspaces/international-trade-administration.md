@@ -146,6 +146,8 @@ apis:
     url: https://api.trade.gov/apps/store/apis/info?name=ZipCodeToUseacAPI&version=v1&provider=dataservices@trade.gov
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Base
   url: http://api.trade.gov/
 - type: Blog
@@ -191,7 +193,7 @@ x-common:
 - type: Youtube
   url: https://youtube.com/TradeGov
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/international-trade-administration.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/international-trade-administration.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/international-trade-administration/overview
 ...
