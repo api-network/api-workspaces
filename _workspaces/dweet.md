@@ -4,7 +4,6 @@ description: simple messaging and alerts for the Internet of Things.
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/5ZoIm6oE_400x400.png
 tags:
 - alerts
-- hapi
 - messaging
 - messaging service
 created: "2021-01-03"
