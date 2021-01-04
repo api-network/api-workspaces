@@ -5,7 +5,6 @@ description: Understand what social media content resonates with audiences. Cent
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg
 tags:
 - news
-- news api
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/newswhip/master/apis.json
@@ -26,6 +25,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/newswhip/master/news-whip-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Authentication
   url: http://www.newswhip.com/api-widgets#authentication
 - type: Base
