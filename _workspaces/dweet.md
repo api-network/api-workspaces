@@ -3,8 +3,8 @@ name: Dweet
 description: simple messaging and alerts for the Internet of Things.
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/5ZoIm6oE_400x400.png
 tags:
+- alerts
 - hapi
-- imports
 - messaging
 - messaging service
 created: "2021-01-03"
@@ -32,6 +32,8 @@ apis:
     url: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/openapis/dweet-io.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: FAQ
   url: http://dweet.io/faq
 - type: Github
