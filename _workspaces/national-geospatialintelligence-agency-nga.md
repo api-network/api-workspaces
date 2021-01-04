@@ -10,8 +10,8 @@ tags:
 - geospatial
 - gis
 - mapping
-created: "2021-01-03"
-modified: "2021-01-03"
+created: "2021-01-04"
+modified: "2021-01-04"
 url: https://raw.githubusercontent.com/api-evangelist/national-geospatialintelligence-agency-nga/master/apis.json
 specificationVersion: "0.14"
 apis:
