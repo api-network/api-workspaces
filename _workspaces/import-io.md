@@ -3,7 +3,7 @@ name: Import.io
 description: Home Page - Import.io - Web Scraping, Data Extraction and Web Harvesting
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg
 tags:
-- api united kingdom
+- harvesting
 - scraping
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -25,6 +25,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/import-io/master/import-io-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://www.import.io
 - type: About
