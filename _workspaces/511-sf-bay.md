@@ -27,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/511-sf-bay/master/511-sf-bay-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://mtc.ca.gov/about-mtc/access-everyone/civil-rights-act-file-complaint
 - type: Branding
@@ -57,4 +59,6 @@ x-common:
   url: http://www.511.org/
 - type: x-screenshot
   url: http://kinlane-productions2.s3.amazonaws.com/511-sf-bay.jpg
+- type: x-workspace
+  url: https://www.postman.com/api-evangelist/workspace/511-sf-bay/overview
 ...
