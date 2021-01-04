@@ -10,7 +10,6 @@ tags:
 - payments
 - sales
 - shopping
-- target
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/2checkout/master/apis.json
