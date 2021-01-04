@@ -7,7 +7,10 @@ description: <p>The Consumer Financial Protection Bureau (CFPB) is an independen
   collectors and other financial companies operating in the United States.</p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/CFPB_Logo.png
 tags:
+- consumer finance
+- consumers
 - federal government
+- personal finance
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau-cfpb/master/apis.json
@@ -48,6 +51,8 @@ apis:
     url: https://cfpb.github.io/hmda-platform/#data-browser-api
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Data
   url: https://www.consumerfinance.gov/data-research/
 - type: Developers
