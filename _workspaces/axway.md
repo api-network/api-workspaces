@@ -5,16 +5,10 @@ description: Axway is a catalyst for transformation. With Axway AMPLIFY, our clo
   customer expectations.
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/21-axway.jpg
 tags:
-- api gateway
-- axway
-- b2b solutions
 - deployment
-- foreign payment
 - gateway
 - global payment
 - management
-- mft services
-- payment
 - portals
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -22,6 +16,8 @@ url: https://raw.githubusercontent.com/api-evangelist/axway/master/apis.json
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://www.axway.com/en
 - type: Blog
