@@ -4,44 +4,10 @@ description: <p>Use bunq&rsquo;s RESTful open banking API to build fintech apps 
   can't build anywhere else and reshape your banking experience the way you want it.</p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pull_image_09-26-2019-07-20-pm.png
 tags:
-- accounting
 - accounts
-- apple pay
-- atm
-- banks
-- bookkeeping
-- budgets
-- business credit cards
-- business management
+- banking
 - credit cards
-- deposit
-- direct debits
-- erp
-- exchange rates
-- expenses
-- finances
-- financial
-- google pay
-- group expenses
-- instant payments
-- investments
-- invoices
-- marketplaces
-- mobile banks
-- money
 - payments
-- personal credit cards
-- pos
-- psd2
-- receipts
-- sandbox
-- savings
-- siri
-- taxes
-- travel card
-- travel credit cards
-- vat
-- withdrawals
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/bunq/master/apis.json
@@ -62,6 +28,8 @@ x-common:
   url: https://www.bunq.com/affiliates
 - type: API List
   url: https://apilist.fun/api/bunq-api
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Applications
   url: http://apps.bunq.com/
 - type: Authentication
