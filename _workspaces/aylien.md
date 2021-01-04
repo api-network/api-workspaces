@@ -3,11 +3,8 @@ name: Aylien
 description: Text Analysis API | Natural Language Processing
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/20034-aylien.jpg
 tags:
-- content
 - machine learning
-- machine learning scraping
 - scraping
-- service level agreement
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/aylien/master/apis.json
@@ -28,6 +25,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/aylien/master/aylien-news-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Blog
   url: http://blog.aylien.com
 - type: Facebook
