@@ -74,4 +74,6 @@ x-common:
   url: https://www.youtube.com/embed/ouL5K_8ag4o?rel=0
 - type: x-screenshot
   url: http://kinlane-productions2.s3.amazonaws.com/2checkout.jpg
+- type: x-workspace
+  url: https://www.postman.com/api-evangelist/workspace/2checkout/overview
 ...
