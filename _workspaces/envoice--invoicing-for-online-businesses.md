@@ -6,18 +6,18 @@ description: As a research and product development company, we utilize knowledge
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/logo-60x60.png
 tags:
 - accounting
-- has api
-- invoice management
-- invoice tracking
+- compliance
 - invoicing
-- payment
-- tax compliance
+- payments
+- taxes
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/envoice--invoicing-for-online-businesses/master/apis.json
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://www.envoice.in
 - type: About
