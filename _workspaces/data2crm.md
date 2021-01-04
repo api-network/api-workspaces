@@ -5,8 +5,10 @@ description: <p>Data2CRM is all-in-one master touch instrument to create the per
   a Unified API Provider, to Connect Your Business Software with 17+ CRMs.</span></p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/data2crm-logo.png
 tags:
+- contacts
 - crm
 - migrations
+- relationships
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/data2crm/master/apis.json
@@ -27,6 +29,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/data2crm/master/data2crm-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.data2crm.com/api/
 - type: Blog
