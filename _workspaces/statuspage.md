@@ -5,6 +5,7 @@ description: StatusPage.io is the best way for web infrastructure, developer API
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/18898-statuspage-io.jpg
 tags:
 - monitoring
+- status
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/statuspage/master/apis.json
@@ -25,6 +26,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/statuspage/master/statuspage-io-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Authentication
   url: http://doers.statuspage.io/api/authentication/
 - type: Blog
