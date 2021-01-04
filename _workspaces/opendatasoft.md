@@ -5,7 +5,9 @@ description: OpenDataSoft is a cloud-based turnkey platform for data publishing 
   of technical skills, to upload easy-to-understand Open Data, or to even share data
   within an admi...
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-tags: []
+tags:
+- collaboration
+- data sharing
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/opendatasoft/master/apis.json
