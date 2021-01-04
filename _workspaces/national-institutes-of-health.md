@@ -53,7 +53,7 @@ x-common:
 - type: Wikipedia
   url: http://en.wikipedia.org/wiki/National_Institutes_of_Health
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/national-institutes-of-health.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/national-institute-of-health.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/national-institutes-of-health/overview
 ...
