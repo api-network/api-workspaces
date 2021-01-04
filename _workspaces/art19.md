@@ -10,7 +10,7 @@ description: ART19 provides tools for hosting, distribution and monetization of 
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/art19-logo.png
 tags:
 - advertisers
-- international advertising
+- audio
 - podcasts
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -30,6 +30,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/art19-content/master/art19-content-api-documentation-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Authentication
   url: https://art19.com/api-docs/index.html?tag=v1&version=1.0.0
 - type: Developers
