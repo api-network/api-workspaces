@@ -5,7 +5,7 @@ description: Wikipedia is a free online encyclopedia, created and edited by volu
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/144-wikipedia.jpg
 tags:
 - content
-- imports
+- information
 - wiki
 created: "2021-01-03"
 modified: "2021-01-03"
@@ -25,6 +25,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/wikipedia/master/wikipedia-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Base
   url: http://en.wikipedia.org/w/api.php
 - type: Crunchbase
