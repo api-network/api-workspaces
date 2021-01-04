@@ -7,8 +7,6 @@ image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/869-newsc
 tags:
 - articles
 - news
-- news api
-- news syndication service
 - syndication
 created: "2021-01-03"
 modified: "2021-01-03"
