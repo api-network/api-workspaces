@@ -13,6 +13,7 @@ description: <p>The National Institutes of Health (NIH) is a biomedical research
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/NIH_Master_Logo_Vertical_2Color.png
 tags:
 - federal government
+- healthcare
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/master/apis.json
@@ -33,6 +34,8 @@ apis:
     url: https://niaid.github.io/3dpx_api/
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Data
   url: https://www.nih.gov/allofus-research-program/data-research-center
 - type: Developers
