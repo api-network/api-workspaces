@@ -4,9 +4,9 @@ description: OpsGenie is an incident response orchestration platform for DevOps 
   ITOps teams to streamline your alerts & incident resolution processes faster & efficiently.
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/1821-opsgenie.jpg
 tags:
+- monitoring
 - notifications
 - orchestration
-- telecommunications
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/opsgenie/master/apis.json
@@ -27,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/opsgenie/master/opsgenie-rest-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://www.atlassian.com/software/opsgenie
 - type: Base
