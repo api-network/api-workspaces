@@ -28,6 +28,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/qualpay/master/qualpay-payment-gateway-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Developers
   url: https://www.qualpay.com/developer/
 - type: Developers
