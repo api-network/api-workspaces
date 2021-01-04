@@ -8,7 +8,6 @@ description: <p>Apigee Edge is a platform for developing and managing API proxie
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png
 tags:
 - deployment
-- integration landscape
 - management
 - portals
 - proxies
@@ -30,6 +29,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/apigee/master/apigee-edge-api-management-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://cloud.google.com/about/locations/
 - type: Blog
