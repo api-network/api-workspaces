@@ -9,7 +9,8 @@ description: <p>Manage a cluster of Linux containers as a single system to accel
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
 tags:
 - containers
-- google
+- orchestration
+- scalability
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/kubernetes/master/apis.json
