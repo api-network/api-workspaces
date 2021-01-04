@@ -55,6 +55,8 @@ apis:
     url: https://www.ncdc.noaa.gov/homr/api
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.noaa.gov/
 - type: Website
