@@ -17,6 +17,8 @@ url: https://raw.githubusercontent.com/api-evangelist/interzoid/master/apis.json
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.interzoid.com
 - type: x-screenshot
