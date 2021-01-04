@@ -8,7 +8,9 @@ description: <p>OSF provides free and open source project management support for
   researchers already use to streamline their process and increase efficiency. As
   a flexible repository, it can store and archive research data, protocols, and materials.&nbsp;</p>
 image: https://s3.amazonaws.com/kinlane-productions2/api-evangelist-logos/api-evangelist-red-seal.png
-tags: []
+tags:
+- research
+- science
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/open-science-framework/master/apis.json
@@ -29,6 +31,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/open-science-framework/master/open-science-framework-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://cos.io
 - type: Developer
