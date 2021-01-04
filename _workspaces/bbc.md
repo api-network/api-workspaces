@@ -5,7 +5,8 @@ description: Breaking news, sport, TV, radio and a whole lot more. The BBC infor
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg
 tags:
 - broadcasts
-- historical data api
+- news
+- radio
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/bbc/master/apis.json
@@ -26,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/bbc/master/bbc-nitro-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://www.bbc.co.uk/aboutthebbc
 - type: Contact
