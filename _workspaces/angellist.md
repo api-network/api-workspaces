@@ -10,7 +10,6 @@ tags:
 - investing
 - marketplaces
 - startup
-- startup jobs
 - startups
 created: "2021-01-03"
 modified: "2021-01-03"
