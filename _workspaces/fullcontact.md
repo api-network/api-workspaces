@@ -20,6 +20,8 @@ url: https://raw.githubusercontent.com/api-evangelist/fullcontact/master/apis.js
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: https://www.fullcontact.com/developer
 - type: Base
