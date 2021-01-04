@@ -4,15 +4,10 @@ description: Accept payments online. 2Checkout.com is an online payment processi
   service that helps you accept credit cards, PayPal and debit cards.
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/2169-2checkout.jpg
 tags:
-- api provider
 - commerce
 - ecommerce
-- have api
-- have openapi
-- have swagger
 - marketing
 - payments
-- profile
 - sales
 - shopping
 - target
@@ -25,7 +20,7 @@ apis:
   description: ~
   image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/2169-2checkout.jpg
   humanURL: https://www.2checkout.com/
-  baseURL: ""
+  baseURL: https://www.2checkout.com/
   tags: []
   properties: []
 include: []
