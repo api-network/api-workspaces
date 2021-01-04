@@ -4,8 +4,8 @@ description: Pivotal Tracker is the agile project management tool of choice for 
   around the world for real-time collaboration around a shared, prioritized backlog.
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
 tags:
+- development
 - projects
-- web based
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/pivotal-tracker/master/apis.json
@@ -26,6 +26,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/pivotal-tracker/master/pivotal-tracker-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.pivotaltracker.com
 - type: Blog
