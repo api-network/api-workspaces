@@ -7,7 +7,6 @@ description: Interzoid was founded to innovate on the next decade of application
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/pull_image_09-13-2020-04-18-pm.png
 tags:
 - data
-- deployment
 - exchange rates
 - time
 - weather
