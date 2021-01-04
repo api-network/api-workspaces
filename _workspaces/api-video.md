@@ -12,6 +12,8 @@ url: https://raw.githubusercontent.com/api-evangelist/api-video/master/apis.json
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://api.video/about
 - type: Blog
