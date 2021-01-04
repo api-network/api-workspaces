@@ -41,10 +41,10 @@
                    <div class="services-block-two col-lg-6 col-md-6 col-sm-12">
                       <div class="inner-box">
                          <div class="image">
-                            <a href="{{ workspace_url }}"><img src="{{ screenshot_url }}" alt="" style="border: 8px solid #ccc; width: 100%; height: 200px;" /></a>
+                            <a href="{{ workspace_url }}" target="_blank"><img src="{{ screenshot_url }}" alt="" style="border: 8px solid #ccc; width: 100%; height: 200px;" /></a>
                          </div>
                          <div class="lower-box" style="margin-bottom: 10px;">
-                            <h5><a href="{{ workspace_url }}">{{ entry.name }}</a></h5>
+                            <h5><a href="{{ workspace_url }}" target="_blank">{{ entry.name }}</a></h5>
                             <strong>Resources:</strong> {% for tag in entry.tags %}{{ tag }}{% if forloop.last == false %},{% endif %}
                             {% endfor %}
                             <!--<div class="text">{{ entry.description | truncate: 250 | strip_html }}</div>-->

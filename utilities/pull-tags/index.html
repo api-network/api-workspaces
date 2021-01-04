@@ -1,0 +1,43 @@
+---
+layout: default
+title: Pull Tags
+---
+
+{% assign all_tags = "" %}
+
+{% assign workspaces_tags = "" %}
+{% assign workspaces = site.workspaces %}
+{% for entry in workspaces %}
+  {% for tag in entry.tags %}
+
+    {% assign check = workspaces_tags | split: "," %}
+    {% assign already_in = 0 %}
+    {% for already in check %}
+      {% if already == tag  %}
+        {% assign already_in = 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if already_in == 0  %}
+      {% assign workspaces_tags = workspaces_tags | append: "," | append: tag %}
+    {% endif %}
+
+    {% assign check = all_tags | split: "," %}
+    {% assign already_in = 0 %}
+    {% for already in check %}
+      {% if already == tag  %}
+        {% assign already_in = 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if already_in == 0  %}
+      {% assign all_tags = all_tags | append: "," | append: tag %}
+    {% endif %}
+
+  {% endfor %}
+{% endfor %}
+
+{% assign workspaces_tags = workspaces_tags | split: "," | sort %}
+<br><p>Workspaces</p>
+---
+{% for tag in workspaces_tags %}{% if tag != '' %}<br>- name: {{ tag }}<br>
+  &nbsp;&nbsp;description: This is the description for {{ tag }}.<br>
+  &nbsp;&nbsp;featured: true{% endif %}{% endfor %}<br>
