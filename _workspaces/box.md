@@ -4,18 +4,9 @@ description: With Box, you get a single place to manage, secure, share and gover
   all of the content for your internal and external collaboration and processes.
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/162-box.jpg
 tags:
-- application platform
-- apps
-- backups
-- cloud storage
-- ecm
-- file sharing
 - files
-- online file storage
 - productivity
-- sharing
 - storage
-- streams
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/box/master/apis.json
@@ -43,6 +34,8 @@ apis:
   properties: []
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://www.box.com/about-us
 - type: Base
