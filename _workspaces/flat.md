@@ -7,12 +7,15 @@ description: <p>Whether you're a beginner or a professional composer, our user-f
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
 tags:
 - music
+- sheet music
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/flat/master/apis.json
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Blog
   url: https://blog.flat.io
 - type: Careers
