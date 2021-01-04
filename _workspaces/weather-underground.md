@@ -4,8 +4,8 @@ description: Weather Underground provides local & long range weather forecasts, 
   reports, maps & tropical weather conditions for locations worldwide.
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
 tags:
-- broadcasts
 - weather
+- wind
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/weather-underground/master/apis.json
@@ -26,6 +26,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/weather-underground/master/weather-underground-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Application Gallery
   url: http://www.wunderground.com/weather/api/d/featured_applications.html
 - type: Crunchbase
