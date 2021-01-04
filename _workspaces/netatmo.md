@@ -44,7 +44,7 @@ x-common:
 - type: Website
   url: http://netatmo.net
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/netatmo.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/netatmo-screenshot.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/netatmo/overview
 ...
