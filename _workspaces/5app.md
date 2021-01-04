@@ -27,6 +27,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/5app/master/5app-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://www.5app.com/about-5app/
 - type: Blog
@@ -55,4 +57,6 @@ x-common:
   url: http://5app.com
 - type: x-screenshot
   url: http://kinlane-productions2.s3.amazonaws.com/5app.jpg
+- type: x-workspace
+  url: https://www.postman.com/api-evangelist/workspace/5app/overview
 ...
