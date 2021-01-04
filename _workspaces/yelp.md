@@ -4,31 +4,8 @@ description: User Reviews and Recommendations of Best Restaurants, Shopping, Nig
   Food, Entertainment, Things to Do, Services and More at Yelp
 image: http://kinlane-productions2.s3.amazonaws.com/screen-capture-api/536-yelp.jpg
 tags:
-- bay area
 - business
-- community
-- dentist
-- doctor
-- friend
-- local
-- los angeles
-- marketplaces
-- massage
-- nails
-- new york
-- pizza
-- places
-- recommendation
-- restaurant
-- review
-- salon
-- san francisco
-- share
-- shopping
-- spa
-- store
-- sushi
-- yelp
+- directory
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/yelp/master/apis.json
@@ -49,6 +26,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/yelp/master/yelp-v3-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://yelp.com/engineering
 - type: About
