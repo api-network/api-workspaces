@@ -17,6 +17,8 @@ url: https://raw.githubusercontent.com/api-evangelist/bandsintown/master/apis.js
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://news.bandsintown.com
 - type: Blog
@@ -48,7 +50,7 @@ x-common:
 - type: Youtube
   url: https://www.youtube.com/bandsintown
 - type: x-screenshot
-  url: http://kinlane-productions2.s3.amazonaws.com/bandsintown.jpg
+  url: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/screenshots/bands-in-town-screenshot.png
 - type: x-workspace
   url: https://www.postman.com/api-evangelist/workspace/bandsintown/overview
 ...
