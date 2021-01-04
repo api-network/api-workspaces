@@ -8,7 +8,6 @@ description: <p>The United States Bureau of Justice Statistics (BJS) is a federa
   agencies that comprise the U.S. justice system on its Web site.</p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/US-DeptOfJustice-Seal.svg.png
 tags:
-- data provider
 - justice
 - law
 - legal
@@ -32,6 +31,8 @@ apis:
     url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/master/national-crime-victimization-survey-ncvs-api-postman-collection.json
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: About
   url: https://www.ojp.gov/about/foia/foia.htm
 - type: Developers
