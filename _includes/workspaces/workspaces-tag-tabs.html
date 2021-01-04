@@ -25,7 +25,7 @@
 
                 {% assign workspaces = site.workspaces %}
                 {% assign workspaces = workspaces | sort: 'name' %}
-                {% for entry in workspaces limit: 25 %}
+                {% for entry in workspaces %}
 
                   {% assign screenshot_url = '' %}
                   {% assign workspace_url = '' %}
