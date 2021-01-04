@@ -7,7 +7,7 @@ description: <p>BigCommerce is the world&rsquo;s leading cloud ecommerce platfor
   than on-premise software.&nbsp;</p>
 image: http://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company/logos/BigCommerce-logo-dark.png
 tags:
-- buy and sell
+- commerce
 - payments
 - shopping carts
 created: "2021-01-03"
@@ -70,6 +70,8 @@ apis:
   properties: []
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.bigcommerce.com
 - type: About
