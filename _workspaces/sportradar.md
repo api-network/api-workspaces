@@ -11,6 +11,7 @@ tags:
 - football
 - hockey
 - soccer
+- sports
 created: "2021-01-03"
 modified: "2021-01-03"
 url: https://raw.githubusercontent.com/api-evangelist/sportradar/master/apis.json
@@ -143,6 +144,8 @@ apis:
   properties: []
 include: []
 x-common:
+- type: APIs.json
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/master/apis.json
 - type: Website
   url: http://www.sportradar.com
 - type: Contact
