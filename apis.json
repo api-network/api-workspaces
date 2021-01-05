@@ -1,4 +1,0 @@
----
-layout: none
----
-{% assign index = site.data.apis %}{{ index | jsonify }}
