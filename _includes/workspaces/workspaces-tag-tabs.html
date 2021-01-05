@@ -31,7 +31,7 @@
                   {% assign website_url = '' %}
                   {% assign workspace_url = '' %}
                   {% for common in entry.x-common %}
-                    {% if common.type == 'x-website' %}
+                    {% if common.type == 'Website' %}
                       {% assign website_url = common.url %}
                     {% endif %}
                     {% if common.type == 'x-workspace' %}
@@ -52,7 +52,7 @@
                          <div class="lower-box" style="margin-bottom: 10px;">
                             <h5><a href="{{ workspace_url }}" target="_blank">{{ entry.name }}</a></h5>
                             <strong>Resources:</strong> {% for tag in entry.tags %}{{ tag }}{% if forloop.last == false %},{% endif %}{% endfor %}<br>
-                            <strong>Website:</strong> {{ website_url }}<br>
+                            <strong>URLs:</strong> (<a href="" target="_blank">Website</a>) (<a href="{{ workspace_url }}" target="_blank">Workspace</a>)<br>
                          </div>
                       </div>
                    </div>
