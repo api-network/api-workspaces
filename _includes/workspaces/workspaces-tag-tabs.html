@@ -52,7 +52,7 @@
                          <div class="lower-box" style="margin-bottom: 10px;">
                             <h5><a href="{{ workspace_url }}" target="_blank">{{ entry.name }}</a></h5>
                             <strong>Resources:</strong> {% for tag in entry.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}<br>
-                            <strong>URLs:</strong> (<a href="" target="_blank">Website</a>) (<a href="{{ workspace_url }}" target="_blank">Workspace</a>)<br>
+                            <strong>URLs:</strong> (<a href="{{ website_url }}" target="_blank">Website</a>) (<a href="{{ workspace_url }}" target="_blank">Workspace</a>)<br>
                          </div>
                       </div>
                    </div>
